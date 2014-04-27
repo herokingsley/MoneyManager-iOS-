@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B5918B9190CB81C0043FE89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5918B8190CB81C0043FE89 /* Foundation.framework */; };
+		2B5918BB190CB81C0043FE89 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5918BA190CB81C0043FE89 /* CoreGraphics.framework */; };
+		2B5918BD190CB81C0043FE89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5918BC190CB81C0043FE89 /* UIKit.framework */; };
+		2B5918C3190CB81C0043FE89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B5918C1190CB81C0043FE89 /* InfoPlist.strings */; };
+		2B5918C5190CB81C0043FE89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5918C4190CB81C0043FE89 /* main.m */; };
+		2B5918C9190CB81C0043FE89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5918C8190CB81C0043FE89 /* AppDelegate.m */; };
+		2B5918CB190CB81C0043FE89 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B5918CA190CB81C0043FE89 /* Images.xcassets */; };
+		2B5918D2190CB81C0043FE89 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5918D1190CB81C0043FE89 /* XCTest.framework */; };
+		2B5918D3190CB81C0043FE89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5918B8190CB81C0043FE89 /* Foundation.framework */; };
+		2B5918D4190CB81C0043FE89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5918BC190CB81C0043FE89 /* UIKit.framework */; };
+		2B5918DC190CB81C0043FE89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B5918DA190CB81C0043FE89 /* InfoPlist.strings */; };
+		2B5918DE190CB81C0043FE89 /* MoneyManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5918DD190CB81C0043FE89 /* MoneyManagerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B5918D5190CB81C0043FE89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B5918AD190CB81C0043FE89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B5918B4190CB81C0043FE89;
+			remoteInfo = MoneyManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B5918B5190CB81C0043FE89 /* MoneyManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B5918B8190CB81C0043FE89 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2B5918BA190CB81C0043FE89 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2B5918BC190CB81C0043FE89 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2B5918C0190CB81C0043FE89 /* MoneyManager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoneyManager-Info.plist"; sourceTree = "<group>"; };
+		2B5918C2190CB81C0043FE89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2B5918C4190CB81C0043FE89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B5918C6190CB81C0043FE89 /* MoneyManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MoneyManager-Prefix.pch"; sourceTree = "<group>"; };
+		2B5918C7190CB81C0043FE89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B5918C8190CB81C0043FE89 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2B5918CA190CB81C0043FE89 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2B5918D0190CB81C0043FE89 /* MoneyManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B5918D1190CB81C0043FE89 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2B5918D9190CB81C0043FE89 /* MoneyManagerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoneyManagerTests-Info.plist"; sourceTree = "<group>"; };
+		2B5918DB190CB81C0043FE89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2B5918DD190CB81C0043FE89 /* MoneyManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoneyManagerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B5918B2190CB81C0043FE89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5918BB190CB81C0043FE89 /* CoreGraphics.framework in Frameworks */,
+				2B5918BD190CB81C0043FE89 /* UIKit.framework in Frameworks */,
+				2B5918B9190CB81C0043FE89 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B5918CD190CB81C0043FE89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5918D2190CB81C0043FE89 /* XCTest.framework in Frameworks */,
+				2B5918D4190CB81C0043FE89 /* UIKit.framework in Frameworks */,
+				2B5918D3190CB81C0043FE89 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B5918AC190CB81C0043FE89 = {
+			isa = PBXGroup;
+			children = (
+				2B5918BE190CB81C0043FE89 /* MoneyManager */,
+				2B5918D7190CB81C0043FE89 /* MoneyManagerTests */,
+				2B5918B7190CB81C0043FE89 /* Frameworks */,
+				2B5918B6190CB81C0043FE89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B5918B6190CB81C0043FE89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B5918B5190CB81C0043FE89 /* MoneyManager.app */,
+				2B5918D0190CB81C0043FE89 /* MoneyManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B5918B7190CB81C0043FE89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B5918B8190CB81C0043FE89 /* Foundation.framework */,
+				2B5918BA190CB81C0043FE89 /* CoreGraphics.framework */,
+				2B5918BC190CB81C0043FE89 /* UIKit.framework */,
+				2B5918D1190CB81C0043FE89 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B5918BE190CB81C0043FE89 /* MoneyManager */ = {
+			isa = PBXGroup;
+			children = (
+				2B5918C7190CB81C0043FE89 /* AppDelegate.h */,
+				2B5918C8190CB81C0043FE89 /* AppDelegate.m */,
+				2B5918CA190CB81C0043FE89 /* Images.xcassets */,
+				2B5918BF190CB81C0043FE89 /* Supporting Files */,
+			);
+			path = MoneyManager;
+			sourceTree = "<group>";
+		};
+		2B5918BF190CB81C0043FE89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B5918C0190CB81C0043FE89 /* MoneyManager-Info.plist */,
+				2B5918C1190CB81C0043FE89 /* InfoPlist.strings */,
+				2B5918C4190CB81C0043FE89 /* main.m */,
+				2B5918C6190CB81C0043FE89 /* MoneyManager-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B5918D7190CB81C0043FE89 /* MoneyManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B5918DD190CB81C0043FE89 /* MoneyManagerTests.m */,
+				2B5918D8190CB81C0043FE89 /* Supporting Files */,
+			);
+			path = MoneyManagerTests;
+			sourceTree = "<group>";
+		};
+		2B5918D8190CB81C0043FE89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B5918D9190CB81C0043FE89 /* MoneyManagerTests-Info.plist */,
+				2B5918DA190CB81C0043FE89 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B5918B4190CB81C0043FE89 /* MoneyManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B5918E1190CB81C0043FE89 /* Build configuration list for PBXNativeTarget "MoneyManager" */;
+			buildPhases = (
+				2B5918B1190CB81C0043FE89 /* Sources */,
+				2B5918B2190CB81C0043FE89 /* Frameworks */,
+				2B5918B3190CB81C0043FE89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoneyManager;
+			productName = MoneyManager;
+			productReference = 2B5918B5190CB81C0043FE89 /* MoneyManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B5918CF190CB81C0043FE89 /* MoneyManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B5918E4190CB81C0043FE89 /* Build configuration list for PBXNativeTarget "MoneyManagerTests" */;
+			buildPhases = (
+				2B5918CC190CB81C0043FE89 /* Sources */,
+				2B5918CD190CB81C0043FE89 /* Frameworks */,
+				2B5918CE190CB81C0043FE89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B5918D6190CB81C0043FE89 /* PBXTargetDependency */,
+			);
+			name = MoneyManagerTests;
+			productName = MoneyManagerTests;
+			productReference = 2B5918D0190CB81C0043FE89 /* MoneyManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B5918AD190CB81C0043FE89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "王智锐";
+				TargetAttributes = {
+					2B5918CF190CB81C0043FE89 = {
+						TestTargetID = 2B5918B4190CB81C0043FE89;
+					};
+				};
+			};
+			buildConfigurationList = 2B5918B0190CB81C0043FE89 /* Build configuration list for PBXProject "MoneyManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2B5918AC190CB81C0043FE89;
+			productRefGroup = 2B5918B6190CB81C0043FE89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B5918B4190CB81C0043FE89 /* MoneyManager */,
+				2B5918CF190CB81C0043FE89 /* MoneyManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B5918B3190CB81C0043FE89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5918C3190CB81C0043FE89 /* InfoPlist.strings in Resources */,
+				2B5918CB190CB81C0043FE89 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B5918CE190CB81C0043FE89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5918DC190CB81C0043FE89 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B5918B1190CB81C0043FE89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5918C9190CB81C0043FE89 /* AppDelegate.m in Sources */,
+				2B5918C5190CB81C0043FE89 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B5918CC190CB81C0043FE89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5918DE190CB81C0043FE89 /* MoneyManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B5918D6190CB81C0043FE89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B5918B4190CB81C0043FE89 /* MoneyManager */;
+			targetProxy = 2B5918D5190CB81C0043FE89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B5918C1190CB81C0043FE89 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B5918C2190CB81C0043FE89 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2B5918DA190CB81C0043FE89 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B5918DB190CB81C0043FE89 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B5918DF190CB81C0043FE89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B5918E0190CB81C0043FE89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B5918E2190CB81C0043FE89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoneyManager/MoneyManager-Prefix.pch";
+				INFOPLIST_FILE = "MoneyManager/MoneyManager-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2B5918E3190CB81C0043FE89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoneyManager/MoneyManager-Prefix.pch";
+				INFOPLIST_FILE = "MoneyManager/MoneyManager-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2B5918E5190CB81C0043FE89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MoneyManager.app/MoneyManager";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoneyManager/MoneyManager-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MoneyManagerTests/MoneyManagerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2B5918E6190CB81C0043FE89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MoneyManager.app/MoneyManager";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoneyManager/MoneyManager-Prefix.pch";
+				INFOPLIST_FILE = "MoneyManagerTests/MoneyManagerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B5918B0190CB81C0043FE89 /* Build configuration list for PBXProject "MoneyManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B5918DF190CB81C0043FE89 /* Debug */,
+				2B5918E0190CB81C0043FE89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B5918E1190CB81C0043FE89 /* Build configuration list for PBXNativeTarget "MoneyManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B5918E2190CB81C0043FE89 /* Debug */,
+				2B5918E3190CB81C0043FE89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2B5918E4190CB81C0043FE89 /* Build configuration list for PBXNativeTarget "MoneyManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B5918E5190CB81C0043FE89 /* Debug */,
+				2B5918E6190CB81C0043FE89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B5918AD190CB81C0043FE89 /* Project object */;
+}

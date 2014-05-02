@@ -19,6 +19,9 @@
 		2B5918D4190CB81C0043FE89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5918BC190CB81C0043FE89 /* UIKit.framework */; };
 		2B5918DC190CB81C0043FE89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B5918DA190CB81C0043FE89 /* InfoPlist.strings */; };
 		2B5918DE190CB81C0043FE89 /* MoneyManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5918DD190CB81C0043FE89 /* MoneyManagerTests.m */; };
+		2B5D255D1912094700652D66 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5D255C1912094700652D66 /* StartViewController.m */; };
+		2B5D2561191209A500652D66 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5D2560191209A500652D66 /* LoginView.m */; };
+		2B5D256419120B1E00652D66 /* RegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5D256319120B1E00652D66 /* RegisterView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,12 @@
 		2B5918D9190CB81C0043FE89 /* MoneyManagerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoneyManagerTests-Info.plist"; sourceTree = "<group>"; };
 		2B5918DB190CB81C0043FE89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2B5918DD190CB81C0043FE89 /* MoneyManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoneyManagerTests.m; sourceTree = "<group>"; };
+		2B5D255B1912094700652D66 /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		2B5D255C1912094700652D66 /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
+		2B5D255F191209A500652D66 /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		2B5D2560191209A500652D66 /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		2B5D256219120B1E00652D66 /* RegisterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterView.h; sourceTree = "<group>"; };
+		2B5D256319120B1E00652D66 /* RegisterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +116,7 @@
 		2B5918BE190CB81C0043FE89 /* MoneyManager */ = {
 			isa = PBXGroup;
 			children = (
+				2B5D255E1912096600652D66 /* startpage */,
 				2B5918C7190CB81C0043FE89 /* AppDelegate.h */,
 				2B5918C8190CB81C0043FE89 /* AppDelegate.m */,
 				2B5918CA190CB81C0043FE89 /* Images.xcassets */,
@@ -142,6 +152,19 @@
 				2B5918DA190CB81C0043FE89 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B5D255E1912096600652D66 /* startpage */ = {
+			isa = PBXGroup;
+			children = (
+				2B5D255B1912094700652D66 /* StartViewController.h */,
+				2B5D255C1912094700652D66 /* StartViewController.m */,
+				2B5D255F191209A500652D66 /* LoginView.h */,
+				2B5D2560191209A500652D66 /* LoginView.m */,
+				2B5D256219120B1E00652D66 /* RegisterView.h */,
+				2B5D256319120B1E00652D66 /* RegisterView.m */,
+			);
+			name = startpage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,8 +262,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B5D255D1912094700652D66 /* StartViewController.m in Sources */,
 				2B5918C9190CB81C0043FE89 /* AppDelegate.m in Sources */,
 				2B5918C5190CB81C0043FE89 /* main.m in Sources */,
+				2B5D2561191209A500652D66 /* LoginView.m in Sources */,
+				2B5D256419120B1E00652D66 /* RegisterView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +465,7 @@
 				2B5918E3190CB81C0043FE89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B5918E4190CB81C0043FE89 /* Build configuration list for PBXNativeTarget "MoneyManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +474,7 @@
 				2B5918E6190CB81C0043FE89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

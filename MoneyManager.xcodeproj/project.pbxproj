@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B23F03C197AD3450035D5F2 /* StartAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B23F03B197AD3450035D5F2 /* StartAnimationView.m */; };
 		2B5918B9190CB81C0043FE89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5918B8190CB81C0043FE89 /* Foundation.framework */; };
 		2B5918BB190CB81C0043FE89 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5918BA190CB81C0043FE89 /* CoreGraphics.framework */; };
 		2B5918BD190CB81C0043FE89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5918BC190CB81C0043FE89 /* UIKit.framework */; };
 		2B5918C3190CB81C0043FE89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B5918C1190CB81C0043FE89 /* InfoPlist.strings */; };
 		2B5918C5190CB81C0043FE89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5918C4190CB81C0043FE89 /* main.m */; };
 		2B5918C9190CB81C0043FE89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5918C8190CB81C0043FE89 /* AppDelegate.m */; };
-		2B5918CB190CB81C0043FE89 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B5918CA190CB81C0043FE89 /* Images.xcassets */; };
 		2B5918D2190CB81C0043FE89 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5918D1190CB81C0043FE89 /* XCTest.framework */; };
 		2B5918D3190CB81C0043FE89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5918B8190CB81C0043FE89 /* Foundation.framework */; };
 		2B5918D4190CB81C0043FE89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5918BC190CB81C0043FE89 /* UIKit.framework */; };
@@ -22,6 +22,9 @@
 		2B5D255D1912094700652D66 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5D255C1912094700652D66 /* StartViewController.m */; };
 		2B5D2561191209A500652D66 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5D2560191209A500652D66 /* LoginView.m */; };
 		2B5D256419120B1E00652D66 /* RegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5D256319120B1E00652D66 /* RegisterView.m */; };
+		2BA467EB197BEA62003408C4 /* manager.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BA467E9197BEA62003408C4 /* manager.png */; };
+		2BA467EC197BEA62003408C4 /* money.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BA467EA197BEA62003408C4 /* money.png */; };
+		2BA46837197BEB88003408C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BA46836197BEB88003408C4 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B23F03A197AD3450035D5F2 /* StartAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartAnimationView.h; sourceTree = "<group>"; };
+		2B23F03B197AD3450035D5F2 /* StartAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartAnimationView.m; sourceTree = "<group>"; };
 		2B5918B5190CB81C0043FE89 /* MoneyManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B5918B8190CB81C0043FE89 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2B5918BA190CB81C0043FE89 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,7 +50,6 @@
 		2B5918C6190CB81C0043FE89 /* MoneyManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MoneyManager-Prefix.pch"; sourceTree = "<group>"; };
 		2B5918C7190CB81C0043FE89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2B5918C8190CB81C0043FE89 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2B5918CA190CB81C0043FE89 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2B5918D0190CB81C0043FE89 /* MoneyManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B5918D1190CB81C0043FE89 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		2B5918D9190CB81C0043FE89 /* MoneyManagerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoneyManagerTests-Info.plist"; sourceTree = "<group>"; };
@@ -57,6 +61,9 @@
 		2B5D2560191209A500652D66 /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
 		2B5D256219120B1E00652D66 /* RegisterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterView.h; sourceTree = "<group>"; };
 		2B5D256319120B1E00652D66 /* RegisterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterView.m; sourceTree = "<group>"; };
+		2BA467E9197BEA62003408C4 /* manager.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = manager.png; path = img/manager.png; sourceTree = "<group>"; };
+		2BA467EA197BEA62003408C4 /* money.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = money.png; path = img/money.png; sourceTree = "<group>"; };
+		2BA46836197BEB88003408C4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,10 +123,11 @@
 		2B5918BE190CB81C0043FE89 /* MoneyManager */ = {
 			isa = PBXGroup;
 			children = (
+				2BA467E4197BDDD5003408C4 /* network */,
 				2B5D255E1912096600652D66 /* startpage */,
 				2B5918C7190CB81C0043FE89 /* AppDelegate.h */,
 				2B5918C8190CB81C0043FE89 /* AppDelegate.m */,
-				2B5918CA190CB81C0043FE89 /* Images.xcassets */,
+				2BA46836197BEB88003408C4 /* Images.xcassets */,
 				2B5918BF190CB81C0043FE89 /* Supporting Files */,
 			);
 			path = MoneyManager;
@@ -157,14 +165,25 @@
 		2B5D255E1912096600652D66 /* startpage */ = {
 			isa = PBXGroup;
 			children = (
+				2BA467E9197BEA62003408C4 /* manager.png */,
+				2BA467EA197BEA62003408C4 /* money.png */,
 				2B5D255B1912094700652D66 /* StartViewController.h */,
 				2B5D255C1912094700652D66 /* StartViewController.m */,
 				2B5D255F191209A500652D66 /* LoginView.h */,
 				2B5D2560191209A500652D66 /* LoginView.m */,
 				2B5D256219120B1E00652D66 /* RegisterView.h */,
 				2B5D256319120B1E00652D66 /* RegisterView.m */,
+				2B23F03A197AD3450035D5F2 /* StartAnimationView.h */,
+				2B23F03B197AD3450035D5F2 /* StartAnimationView.m */,
 			);
 			name = startpage;
+			sourceTree = "<group>";
+		};
+		2BA467E4197BDDD5003408C4 /* network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,7 +262,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B5918C3190CB81C0043FE89 /* InfoPlist.strings in Resources */,
-				2B5918CB190CB81C0043FE89 /* Images.xcassets in Resources */,
+				2BA46837197BEB88003408C4 /* Images.xcassets in Resources */,
+				2BA467EB197BEA62003408C4 /* manager.png in Resources */,
+				2BA467EC197BEA62003408C4 /* money.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B23F03C197AD3450035D5F2 /* StartAnimationView.m in Sources */,
 				2B5D255D1912094700652D66 /* StartViewController.m in Sources */,
 				2B5918C9190CB81C0043FE89 /* AppDelegate.m in Sources */,
 				2B5918C5190CB81C0043FE89 /* main.m in Sources */,
@@ -389,6 +411,7 @@
 				GCC_PREFIX_HEADER = "MoneyManager/MoneyManager-Prefix.pch";
 				INFOPLIST_FILE = "MoneyManager/MoneyManager-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -402,6 +425,7 @@
 				GCC_PREFIX_HEADER = "MoneyManager/MoneyManager-Prefix.pch";
 				INFOPLIST_FILE = "MoneyManager/MoneyManager-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

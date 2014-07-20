@@ -14,6 +14,32 @@
 
 @implementation StartViewController
 
+@synthesize animationView = _animationView;
+@synthesize registerView  = _registerView;
+@synthesize loginView     = _loginView;
+
+-(id)init{
+    self = [super init];
+    if(self){
+        
+        //创建开头动画。
+        UIScreen* screen = [UIScreen mainScreen];
+        float width = [screen applicationFrame].size.width;
+        float height = [screen applicationFrame].size.height;
+        //加上状态栏的高度
+        height = height + 20;
+        
+        _animationView = [[StartAnimationView alloc] initWithFrame:CGRectMake(0, 0, width, height)];
+        NSLog(@"width %f height %f",width,height);
+        [self.view addSubview:_animationView];
+        [_animationView animate];
+        //检查是否登录，如果未登录则展示registerView和loginView，反之进行跳转。
+        
+        
+    }
+    return self;
+}
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
